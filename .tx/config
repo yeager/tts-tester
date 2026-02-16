@@ -1,0 +1,8 @@
+[main]
+host = https://www.transifex.com
+
+[o:danielnylander:p:tts-tester:r:tts-tester-pot]
+file_filter = po/<lang>.po
+source_file = po/tts-tester.pot
+source_lang = en
+type = PO

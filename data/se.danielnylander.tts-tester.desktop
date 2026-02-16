@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=ULText-to-speech engine comparison tool
+Comment=Text-to-speech engine comparison tool
+Exec=tts-tester
+Icon=se.danielnylander.tts-tester
+Categories=Utility;
