@@ -1,7 +1,11 @@
 [Desktop Entry]
 Type=Application
-Name=ULText-to-speech engine comparison tool
+Name=TTS Tester
+GenericName=Text-to-Speech Tester
 Comment=Text-to-speech engine comparison tool
 Exec=tts-tester
 Icon=se.danielnylander.tts-tester
-Categories=Utility;
+Terminal=false
+Categories=Utility;Audio;
+StartupNotify=true
+Keywords=tts;text-to-speech;voice;audio;
