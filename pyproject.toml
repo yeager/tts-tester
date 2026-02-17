@@ -5,3 +5,6 @@ description = "Text-to-speech engine comparison tool"
 authors = [{name = "Daniel Nylander", email = "daniel@danielnylander.se"}]
 license = {text = "GPL-3.0-or-later"}
 requires-python = ">=3.10"
+
+[project.gui-scripts]
+tts-tester = "tts_tester.main:main"
