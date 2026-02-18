@@ -1,0 +1,327 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the tts-tester package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Daniel Nylander <po@danielnylander.se>, 2026
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: tts-tester 0.2.0\n"
+"Report-Msgid-Bugs-To: daniel@danielnylander.se\n"
+"POT-Creation-Date: 2026-02-17 19:56+0100\n"
+"PO-Revision-Date: 2026-02-16 16:18+0000\n"
+"Last-Translator: Daniel Nylander <po@danielnylander.se>, 2026\n"
+"Language-Team: Swedish (https://app.transifex.com/danielnylander/teams/304857/sv/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: sv\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: src/tts_tester/main.py:71
+msgid "Voice"
+msgstr "Röst"
+
+#: src/tts_tester/main.py:83
+msgid "Speed"
+msgstr "Hastighet"
+
+#: src/tts_tester/main.py:96
+msgid "Pitch"
+msgstr "Tonläge"
+
+#: src/tts_tester/main.py:109
+msgid "Volume"
+msgstr "Volym"
+
+#: src/tts_tester/main.py:125
+msgid "(none)"
+msgstr "(ingen)"
+
+#: src/tts_tester/main.py:171 src/tts_tester/main.py:196
+#: src/tts_tester/main.py:847
+msgid "TTS Tester"
+msgstr "TTS-testare"
+
+#: src/tts_tester/main.py:187 src/tts_tester/main.py:289
+msgid "Ready"
+msgstr "Redo"
+
+#: src/tts_tester/main.py:205
+msgid "Play (Ctrl+Enter)"
+msgstr "Spela upp (Ctrl+Enter)"
+
+#: src/tts_tester/main.py:212
+msgid "Stop"
+msgstr "Stoppa"
+
+#: src/tts_tester/main.py:217
+msgid "A/B"
+msgstr "A/B"
+
+#: src/tts_tester/main.py:218
+msgid "A/B Comparison Mode"
+msgstr "A/B-jämförelseläge"
+
+#: src/tts_tester/main.py:223
+msgid "SSML"
+msgstr "SSML"
+
+#: src/tts_tester/main.py:224
+msgid "SSML Editing Mode"
+msgstr "SSML-redigeringsläge"
+
+#: src/tts_tester/main.py:230 src/tts_tester/main.py:696
+msgid "Save Audio"
+msgstr "Spara ljud"
+
+#: src/tts_tester/main.py:236
+msgid "Favorites"
+msgstr "Favoriter"
+
+#: src/tts_tester/main.py:243
+msgid "Load Text from File…"
+msgstr "Läs in text från fil…"
+
+#: src/tts_tester/main.py:244
+msgid "Save Favorite…"
+msgstr "Spara favorit…"
+
+#: src/tts_tester/main.py:249
+#, python-format
+msgid "Sample: %s"
+msgstr "Sampling: %s"
+
+#: src/tts_tester/main.py:252
+msgid "Sample Texts"
+msgstr "Exempeltexter"
+
+#: src/tts_tester/main.py:254
+msgid "Export…"
+msgstr "Exportera…"
+
+#: src/tts_tester/main.py:255
+msgid "Keyboard Shortcuts"
+msgstr "Tangentbordsgenvägar"
+
+#: src/tts_tester/main.py:256
+msgid "About TTS Tester"
+msgstr "Om TTS-testare"
+
+#: src/tts_tester/main.py:385
+msgid "Engine A"
+msgstr "Motor A"
+
+#: src/tts_tester/main.py:397
+msgid "Play A"
+msgstr "Spela upp A"
+
+#: src/tts_tester/main.py:403 src/tts_tester/main.py:435
+msgid "Thumbs Up"
+msgstr "Tumme upp"
+
+#: src/tts_tester/main.py:408 src/tts_tester/main.py:440
+msgid "Thumbs Down"
+msgstr "Tumme ner"
+
+#: src/tts_tester/main.py:417
+msgid "Engine B"
+msgstr "Motor B"
+
+#: src/tts_tester/main.py:429
+msgid "Play B"
+msgstr "Spela upp B"
+
+#: src/tts_tester/main.py:450
+msgid "Play Both"
+msgstr "Spela upp båda"
+
+#: src/tts_tester/main.py:479
+#, python-format
+msgid "Loaded sample text: %s"
+msgstr "Läste in exempeltext: %s"
+
+#: src/tts_tester/main.py:504
+msgid " (not found)"
+msgstr " (hittades inte)"
+
+#: src/tts_tester/main.py:538
+#, python-format
+msgid "Engine: %s"
+msgstr "Motor: %s"
+
+#: src/tts_tester/main.py:563
+#, python-format
+msgid "%(chars)d characters, %(words)d words"
+msgstr "%(chars)d tecken, %(words)d ord"
+
+#: src/tts_tester/main.py:576 src/tts_tester/main.py:654
+msgid "No text to speak"
+msgstr "Ingen text att tala"
+
+#: src/tts_tester/main.py:579 src/tts_tester/main.py:692
+msgid "No engine selected"
+msgstr "Ingen motor vald"
+
+#: src/tts_tester/main.py:582
+msgid "Speaking…"
+msgstr "Talar…"
+
+#: src/tts_tester/main.py:591
+#, python-format
+msgid "Error: %s"
+msgstr "Fel: %s"
+
+#: src/tts_tester/main.py:598
+msgid "Playback finished"
+msgstr "Uppspelning färdig"
+
+#: src/tts_tester/main.py:604
+msgid "Stopped"
+msgstr "Stoppad"
+
+#: src/tts_tester/main.py:623
+msgid "A/B Comparison mode"
+msgstr "A/B-jämförelseläge"
+
+#: src/tts_tester/main.py:626
+msgid "Normal mode"
+msgstr "Normalt läge"
+
+#: src/tts_tester/main.py:635
+msgid "SSML mode enabled"
+msgstr "SSML-läge aktiverat"
+
+#: src/tts_tester/main.py:637
+msgid "Plain text mode"
+msgstr "Vanligt textläge"
+
+#: src/tts_tester/main.py:659
+#, python-format
+msgid "No engine for %s"
+msgstr "Ingen motor för %s"
+
+#: src/tts_tester/main.py:662
+#, python-format
+msgid "Playing %s…"
+msgstr "Spelar upp %s…"
+
+#: src/tts_tester/main.py:669
+#, python-format
+msgid "Finished %s"
+msgstr "Färdig %s"
+
+#: src/tts_tester/main.py:674
+#, python-format
+msgid "Error (%(engine)s): %(error)s"
+msgstr "Fel (%(engine)s): %(error)s"
+
+#: src/tts_tester/main.py:683
+#, python-format
+msgid "Rated %(engine)s: %(rating)s"
+msgstr "Betyg %(engine)s: %(rating)s"
+
+#: src/tts_tester/main.py:689
+msgid "No text to save"
+msgstr "Ingen text att spara"
+
+#: src/tts_tester/main.py:700
+msgid "WAV files"
+msgstr "WAV-filer"
+
+#: src/tts_tester/main.py:714
+msgid "Saving audio…"
+msgstr "Sparar ljud…"
+
+#: src/tts_tester/main.py:723
+#, python-format
+msgid "Audio saved to %s"
+msgstr "Ljud sparat till %s"
+
+#: src/tts_tester/main.py:728
+#, python-format
+msgid "Save error: %s"
+msgstr "Fel vid sparning: %s"
+
+#: src/tts_tester/main.py:738
+msgid "Load Text File"
+msgstr "Läs in textfil"
+
+#: src/tts_tester/main.py:741
+msgid "Text files"
+msgstr "Textfiler"
+
+#: src/tts_tester/main.py:757
+#, python-format
+msgid "Loaded: %s"
+msgstr "Inläst: %s"
+
+#: src/tts_tester/main.py:763
+msgid "Save Favorite"
+msgstr "Spara favorit"
+
+#: src/tts_tester/main.py:764
+msgid "Enter a name for this preset:"
+msgstr "Ange ett namn för detta förval:"
+
+#: src/tts_tester/main.py:765
+msgid "Cancel"
+msgstr "Avbryt"
+
+#: src/tts_tester/main.py:766
+msgid "Save"
+msgstr "Spara"
+
+#: src/tts_tester/main.py:770
+msgid "Preset name"
+msgstr "Förvalsnamn"
+
+#: src/tts_tester/main.py:796
+#, python-format
+msgid "Saved favorite: %s"
+msgstr "Sparade favorit: %s"
+
+#: src/tts_tester/main.py:803
+msgid "Unnamed"
+msgstr "Namnlös"
+
+#: src/tts_tester/main.py:811
+msgid "No favorites yet"
+msgstr "Inga favoriter ännu"
+
+#: src/tts_tester/main.py:835
+#, python-format
+msgid "Loaded favorite: %s"
+msgstr "Läste in favorit: %s"
+
+#: src/tts_tester/main.py:855
+msgid "translator-credits"
+msgstr "Daniel Nylander <po@danielnylander.se>, 2026."
+
+#: src/tts_tester/main.py:919
+msgid "Export Data"
+msgstr "Exportera data"
+
+#: src/tts_tester/main.py:923
+msgid "JSON files"
+msgstr "JSON-filer"
+
+#: src/tts_tester/main.py:926
+msgid "CSV files"
+msgstr "CSV-filer"
+
+#: src/tts_tester/main.py:962
+#, python-format
+msgid "Exported to %s"
+msgstr "Exporterad till %s"
+
+#: src/tts_tester/main.py:1028
+msgid "Engines refreshed"
+msgstr "Motorer uppdaterade"
+
+#: src/tts_tester/engines.py:160
+msgid "(default)"
+msgstr "(standard)"
