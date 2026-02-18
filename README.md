@@ -1,5 +1,7 @@
 # ULText-to-speech engine comparison tool
 
+[![Version](https://img.shields.io/badge/version-0.2.0-blue)](https://github.com/yeager/tts-tester/releases)
+
 ## Screenshot
 
 ![TTS Tester](screenshots/main.png)
