@@ -37,7 +37,7 @@ jobs:
           Name:           tts-tester
           Version:        VERSION_PLACEHOLDER
           Release:        1
-          Summary:        
+          Summary:        Text-to-speech engine comparison tool
           License:        GPL-3.0-or-later
           URL:            https://github.com/yeager/tts-tester
           Source0:        %{name}-%{version}.tar.gz
