@@ -1,14 +1,14 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the tts-tester package.
+# This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: tts-tester 0.2.0\n"
-"Report-Msgid-Bugs-To: daniel@danielnylander.se\n"
-"POT-Creation-Date: 2026-02-17 19:56+0100\n"
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-02-22 06:26+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,307 +17,329 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: src/tts_tester/main.py:71
+#: src/tts_tester/engines.py:160
+msgid "(default)"
+msgstr ""
+
+#: src/tts_tester/main.py:92
 msgid "Voice"
 msgstr ""
 
-#: src/tts_tester/main.py:83
+#: src/tts_tester/main.py:104
 msgid "Speed"
 msgstr ""
 
-#: src/tts_tester/main.py:96
+#: src/tts_tester/main.py:117
 msgid "Pitch"
 msgstr ""
 
-#: src/tts_tester/main.py:109
+#: src/tts_tester/main.py:130
 msgid "Volume"
 msgstr ""
 
-#: src/tts_tester/main.py:125
+#: src/tts_tester/main.py:146
 msgid "(none)"
 msgstr ""
 
-#: src/tts_tester/main.py:171 src/tts_tester/main.py:196
-#: src/tts_tester/main.py:847
+#: src/tts_tester/main.py:192 src/tts_tester/main.py:217
+#: src/tts_tester/main.py:868
 msgid "TTS Tester"
 msgstr ""
 
-#: src/tts_tester/main.py:187 src/tts_tester/main.py:289
+#: src/tts_tester/main.py:208 src/tts_tester/main.py:310
 msgid "Ready"
 msgstr ""
 
-#: src/tts_tester/main.py:205
+#: src/tts_tester/main.py:226
 msgid "Play (Ctrl+Enter)"
 msgstr ""
 
-#: src/tts_tester/main.py:212
+#: src/tts_tester/main.py:233
 msgid "Stop"
 msgstr ""
 
-#: src/tts_tester/main.py:217
+#: src/tts_tester/main.py:238
 msgid "A/B"
 msgstr ""
 
-#: src/tts_tester/main.py:218
+#: src/tts_tester/main.py:239
 msgid "A/B Comparison Mode"
 msgstr ""
 
-#: src/tts_tester/main.py:223
+#: src/tts_tester/main.py:244
 msgid "SSML"
 msgstr ""
 
-#: src/tts_tester/main.py:224
+#: src/tts_tester/main.py:245
 msgid "SSML Editing Mode"
 msgstr ""
 
-#: src/tts_tester/main.py:230 src/tts_tester/main.py:696
+#: src/tts_tester/main.py:251 src/tts_tester/main.py:717
 msgid "Save Audio"
 msgstr ""
 
-#: src/tts_tester/main.py:236
+#: src/tts_tester/main.py:257
 msgid "Favorites"
 msgstr ""
 
-#: src/tts_tester/main.py:243
+#: src/tts_tester/main.py:264
 msgid "Load Text from File…"
 msgstr ""
 
-#: src/tts_tester/main.py:244
+#: src/tts_tester/main.py:265
 msgid "Save Favorite…"
 msgstr ""
 
-#: src/tts_tester/main.py:249
+#: src/tts_tester/main.py:270
 #, python-format
 msgid "Sample: %s"
 msgstr ""
 
-#: src/tts_tester/main.py:252
+#: src/tts_tester/main.py:273
 msgid "Sample Texts"
 msgstr ""
 
-#: src/tts_tester/main.py:254
+#: src/tts_tester/main.py:275
 msgid "Export…"
 msgstr ""
 
-#: src/tts_tester/main.py:255
+#: src/tts_tester/main.py:276
 msgid "Keyboard Shortcuts"
 msgstr ""
 
-#: src/tts_tester/main.py:256
+#: src/tts_tester/main.py:277
 msgid "About TTS Tester"
 msgstr ""
 
-#: src/tts_tester/main.py:385
+#: src/tts_tester/main.py:406
 msgid "Engine A"
 msgstr ""
 
-#: src/tts_tester/main.py:397
+#: src/tts_tester/main.py:418
 msgid "Play A"
 msgstr ""
 
-#: src/tts_tester/main.py:403 src/tts_tester/main.py:435
+#: src/tts_tester/main.py:424 src/tts_tester/main.py:456
 msgid "Thumbs Up"
 msgstr ""
 
-#: src/tts_tester/main.py:408 src/tts_tester/main.py:440
+#: src/tts_tester/main.py:429 src/tts_tester/main.py:461
 msgid "Thumbs Down"
 msgstr ""
 
-#: src/tts_tester/main.py:417
+#: src/tts_tester/main.py:438
 msgid "Engine B"
 msgstr ""
 
-#: src/tts_tester/main.py:429
+#: src/tts_tester/main.py:450
 msgid "Play B"
 msgstr ""
 
-#: src/tts_tester/main.py:450
+#: src/tts_tester/main.py:471
 msgid "Play Both"
 msgstr ""
 
-#: src/tts_tester/main.py:479
+#: src/tts_tester/main.py:500
 #, python-format
 msgid "Loaded sample text: %s"
 msgstr ""
 
-#: src/tts_tester/main.py:504
+#: src/tts_tester/main.py:525
 msgid " (not found)"
 msgstr ""
 
-#: src/tts_tester/main.py:538
+#: src/tts_tester/main.py:559
 #, python-format
 msgid "Engine: %s"
 msgstr ""
 
-#: src/tts_tester/main.py:563
+#: src/tts_tester/main.py:584
 #, python-format
 msgid "%(chars)d characters, %(words)d words"
 msgstr ""
 
-#: src/tts_tester/main.py:576 src/tts_tester/main.py:654
+#: src/tts_tester/main.py:597 src/tts_tester/main.py:675
 msgid "No text to speak"
 msgstr ""
 
-#: src/tts_tester/main.py:579 src/tts_tester/main.py:692
+#: src/tts_tester/main.py:600 src/tts_tester/main.py:713
 msgid "No engine selected"
 msgstr ""
 
-#: src/tts_tester/main.py:582
+#: src/tts_tester/main.py:603
 msgid "Speaking…"
 msgstr ""
 
-#: src/tts_tester/main.py:591
+#: src/tts_tester/main.py:612
 #, python-format
 msgid "Error: %s"
 msgstr ""
 
-#: src/tts_tester/main.py:598
+#: src/tts_tester/main.py:619
 msgid "Playback finished"
 msgstr ""
 
-#: src/tts_tester/main.py:604
+#: src/tts_tester/main.py:625
 msgid "Stopped"
 msgstr ""
 
-#: src/tts_tester/main.py:623
+#: src/tts_tester/main.py:644
 msgid "A/B Comparison mode"
 msgstr ""
 
-#: src/tts_tester/main.py:626
+#: src/tts_tester/main.py:647
 msgid "Normal mode"
 msgstr ""
 
-#: src/tts_tester/main.py:635
+#: src/tts_tester/main.py:656
 msgid "SSML mode enabled"
 msgstr ""
 
-#: src/tts_tester/main.py:637
+#: src/tts_tester/main.py:658
 msgid "Plain text mode"
 msgstr ""
 
-#: src/tts_tester/main.py:659
+#: src/tts_tester/main.py:680
 #, python-format
 msgid "No engine for %s"
 msgstr ""
 
-#: src/tts_tester/main.py:662
+#: src/tts_tester/main.py:683
 #, python-format
 msgid "Playing %s…"
 msgstr ""
 
-#: src/tts_tester/main.py:669
+#: src/tts_tester/main.py:690
 #, python-format
 msgid "Finished %s"
 msgstr ""
 
-#: src/tts_tester/main.py:674
+#: src/tts_tester/main.py:695
 #, python-format
 msgid "Error (%(engine)s): %(error)s"
 msgstr ""
 
-#: src/tts_tester/main.py:683
+#: src/tts_tester/main.py:704
 #, python-format
 msgid "Rated %(engine)s: %(rating)s"
 msgstr ""
 
-#: src/tts_tester/main.py:689
+#: src/tts_tester/main.py:710
 msgid "No text to save"
 msgstr ""
 
-#: src/tts_tester/main.py:700
+#: src/tts_tester/main.py:721
 msgid "WAV files"
 msgstr ""
 
-#: src/tts_tester/main.py:714
+#: src/tts_tester/main.py:735
 msgid "Saving audio…"
 msgstr ""
 
-#: src/tts_tester/main.py:723
+#: src/tts_tester/main.py:744
 #, python-format
 msgid "Audio saved to %s"
 msgstr ""
 
-#: src/tts_tester/main.py:728
+#: src/tts_tester/main.py:749
 #, python-format
 msgid "Save error: %s"
 msgstr ""
 
-#: src/tts_tester/main.py:738
+#: src/tts_tester/main.py:759
 msgid "Load Text File"
 msgstr ""
 
-#: src/tts_tester/main.py:741
+#: src/tts_tester/main.py:762
 msgid "Text files"
 msgstr ""
 
-#: src/tts_tester/main.py:757
+#: src/tts_tester/main.py:778
 #, python-format
 msgid "Loaded: %s"
 msgstr ""
 
-#: src/tts_tester/main.py:763
+#: src/tts_tester/main.py:784
 msgid "Save Favorite"
 msgstr ""
 
-#: src/tts_tester/main.py:764
+#: src/tts_tester/main.py:785
 msgid "Enter a name for this preset:"
 msgstr ""
 
-#: src/tts_tester/main.py:765
+#: src/tts_tester/main.py:786
 msgid "Cancel"
 msgstr ""
 
-#: src/tts_tester/main.py:766
+#: src/tts_tester/main.py:787
 msgid "Save"
 msgstr ""
 
-#: src/tts_tester/main.py:770
+#: src/tts_tester/main.py:791
 msgid "Preset name"
 msgstr ""
 
-#: src/tts_tester/main.py:796
+#: src/tts_tester/main.py:817
 #, python-format
 msgid "Saved favorite: %s"
 msgstr ""
 
-#: src/tts_tester/main.py:803
+#: src/tts_tester/main.py:824
 msgid "Unnamed"
 msgstr ""
 
-#: src/tts_tester/main.py:811
+#: src/tts_tester/main.py:832
 msgid "No favorites yet"
 msgstr ""
 
-#: src/tts_tester/main.py:835
+#: src/tts_tester/main.py:856
 #, python-format
 msgid "Loaded favorite: %s"
 msgstr ""
 
-#: src/tts_tester/main.py:855
-msgid "translator-credits"
+#: src/tts_tester/main.py:877
+msgid ""
+"Translate this app: https://www.transifex.com/danielnylander/tts-tester/"
 msgstr ""
 
-#: src/tts_tester/main.py:919
+#: src/tts_tester/main.py:945
 msgid "Export Data"
 msgstr ""
 
-#: src/tts_tester/main.py:923
+#: src/tts_tester/main.py:949
 msgid "JSON files"
 msgstr ""
 
-#: src/tts_tester/main.py:926
+#: src/tts_tester/main.py:952
 msgid "CSV files"
 msgstr ""
 
-#: src/tts_tester/main.py:962
+#: src/tts_tester/main.py:988
 #, python-format
 msgid "Exported to %s"
 msgstr ""
 
-#: src/tts_tester/main.py:1028
+#: src/tts_tester/main.py:1054
 msgid "Engines refreshed"
 msgstr ""
 
-#: src/tts_tester/engines.py:160
-msgid "(default)"
+#: src/tts_tester/main.py:1077
+msgid "Welcome"
+msgstr ""
+
+#: src/tts_tester/main.py:1082
+msgid "Welcome to TTS Tester"
+msgstr ""
+
+#: src/tts_tester/main.py:1084
+msgid ""
+"Test text-to-speech engines.\n"
+"\n"
+"✓ Compare TTS voices\n"
+"✓ Adjust speed and pitch\n"
+"✓ Multiple languages"
+msgstr ""
+
+#: src/tts_tester/main.py:1086
+msgid "Get Started"
 msgstr ""
