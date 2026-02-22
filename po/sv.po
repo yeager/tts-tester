@@ -305,6 +305,7 @@ msgstr "Läste in favorit: %s"
 msgid ""
 "Translate this app: https://www.transifex.com/danielnylander/tts-tester/"
 msgstr ""
+"Översätt denna app: https://www.transifex.com/danielnylander/tts-tester/"
 
 #: src/tts_tester/main.py:945
 msgid "Export Data"
@@ -329,11 +330,11 @@ msgstr "Motorer uppdaterade"
 
 #: src/tts_tester/main.py:1077
 msgid "Welcome"
-msgstr ""
+msgstr "Välkommen"
 
 #: src/tts_tester/main.py:1082
 msgid "Welcome to TTS Tester"
-msgstr ""
+msgstr "Välkommen till TTS-testare"
 
 #: src/tts_tester/main.py:1084
 msgid ""
@@ -343,7 +344,12 @@ msgid ""
 "✓ Adjust speed and pitch\n"
 "✓ Multiple languages"
 msgstr ""
+"Testa motorer för text-till-tal.\n"
+"\n"
+"✓ Jämför TTS-röster\n"
+"✓ Justera hastighet och tonhöjd\n"
+"✓ Flera språk"
 
 #: src/tts_tester/main.py:1086
 msgid "Get Started"
-msgstr ""
+msgstr "Kom igång"
