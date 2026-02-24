@@ -1,5 +1,6 @@
 [Desktop Entry]
 Type=Application
+StartupWMClass=se.danielnylander.tts-tester
 Name=TTS Tester
 GenericName=Text-to-Speech Tester
 Comment=Text-to-speech engine comparison tool
